@@ -1,0 +1,20 @@
+.heading{
+    background-image: url("../images/img2.jpg");
+    height: 1000PX;
+    color: white;
+    background-size: cover;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+.saree{
+    border: 2px solid black;
+ }
+.men{
+    border: 2px solid black;
+}
+.about{
+    text-align: center;
+}
+.pro{
+    padding: 2px;
+}
