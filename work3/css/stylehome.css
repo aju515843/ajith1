@@ -1,0 +1,21 @@
+body{
+    background-image: url(../img/);
+}
+.one{
+    background-color: thistle;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    margin: 1px;
+}
+.two{
+    background-color: teal;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    margin: 1px;
+}
+.three{
+    background-color: steelblue;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    margin: 1px;
+}
