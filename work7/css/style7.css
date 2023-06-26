@@ -1,0 +1,23 @@
+.para1{
+    margin-bottom: 50px;
+}
+.img1{
+    height: 140px;
+}
+.para2{
+    height: fit-content;
+}
+.center{
+    text-align: center;
+
+}
+body{
+    background-color: azure;
+}
+.row1{
+    background-color: aqua;
+}
+.row2{
+    background-color: rgb(138, 224, 239);
+}
+
