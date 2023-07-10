@@ -1,0 +1,15 @@
+#heights{
+    width: 250px;
+    text-align: center;
+    height: 300px;
+    padding-left: 40px;
+}
+#bg{
+    background-color: black;
+}
+#bg2{
+    background-color: white;
+}
+#mt{
+    margin-top: 10px;
+}
