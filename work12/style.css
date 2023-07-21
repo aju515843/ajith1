@@ -1,0 +1,100 @@
+@media(min-width:576px) {
+.ft{
+    font-family: 'Yeseva One', cursive;
+    font-size: 50px;
+}
+.hy{
+    height: 75%;
+    width: 100%;
+}
+.ff{font-family: 'Righteous', cursive;}
+
+.marginbody{
+    margin-left: 352.5px;
+    margin-right: 352.5px;
+}
+.ck{
+  background-color:  hsl(5, 85%, 63%);;
+  color: white;
+  padding: 12px 32px;
+  font-size: 16px;
+  font-weight: 700;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  
+}
+.ck:hover{
+  background-color:  hsl(240, 100%, 5%);
+  color: white;
+  cursor: pointer;
+}
+.ho:hover{
+  color: rgb(241, 125, 29);
+  cursor: pointer;
+}
+#st{
+  color: white;
+  border-bottom: 1px solid hsl(236, 13%, 42%);
+  
+
+}
+.pad{
+  margin-top: 100px;
+}
+.img{
+  height: 190.5px;
+
+}
+.pad2{
+  margin-top: 40px;
+}
+
+}
+@media(max-width:998px){
+    .hy{
+      height: 75%;
+      width: 100%;
+    }
+    .ff{font-family: 'Righteous', cursive;}
+    .pad{
+      margin-top: 100px;
+    }
+    .img{
+      height: 300px;
+      width: 500px;
+    
+    }
+    #st{
+      color: white;
+      border-bottom: 1px solid hsl(236, 13%, 42%);
+    }
+    .ck{
+      background-color:  hsl(5, 85%, 63%);;
+      color: white;
+      padding: 12px 32px;
+      font-size: 16px;
+      font-weight: 700;
+      border: none;
+      outline: none;
+      text-transform: uppercase;
+      
+    }
+    .ck:hover{
+      background-color:  hsl(240, 100%, 5%);
+      color: white;
+      cursor: pointer;
+    }
+    .ho:hover{
+      color: rgb(241, 125, 29);
+      cursor: pointer;
+    }
+    .pad2{
+      margin-top: 40px;
+    }
+    .gg{
+      margin-top: 200px;
+      
+    }
+
+}
