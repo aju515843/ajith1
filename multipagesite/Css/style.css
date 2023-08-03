@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@1,300&family=Spectral:wght@200&display=swap');
+
+.header {
+    width: 100%;
+    padding: 0;
+    z-index: 10000;
+    transition: all 0.2s ease-in-out;
+    background-color: #eaf0ff;  
+    text-align: center;
+}
+
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-nav>li>a {
+    text-shadow: none;
+}
+
+.navbar-brand {
+	font-family: 'Spectral', serif;
+	font-size: 44px;
+	color: #121212;
+	font-style: italic;
+	text-align: center;
+	width: 100%;
+	border-bottom: 1px solid #d8deed;
+	position: relative;
+	padding: 40px 0px;
+	height: auto!important;
+}
+
+#main-nav {
+	padding: 35px 0px;
+	float: right;
+    position:relative;
+    left:-15%;
+    text-align: center;
+}
+
+.nav {
+	list-style:none;
+    position:relative;
+    left:50%;
+}
+
+.navbar-nav li {
+	margin: 0px 20px;
+}
+
+.navbar-nav li a {
+	font-family: 'Roboto', sans-serif;
+	font-size: 13px;
+	text-transform: uppercase;
+	color: #363e50!important;
+	letter-spacing: 0.5px;
+}
+
+.header.active {
+    background-color: #eaf0ff;
+}
+.navbar-inverse {
+	background-image: none;
+	background-color: transparent;
+}
+.header .navbar {
+    margin: 0;
+    border: none;
+}
+.navbar-inverse .navbar-toggler {
+	margin-top: 22px;
+    border-color: #f2745f;
+    background-color: #f2745f;
+	
+}
+.navbar-inverse .navbar-toggler:hover, .navbar-inverse .navbar-toggler:focus {
+	background-color: #f2745f;
+}
+.txt1{
+	padding: 180px 0px;
+	background-image: url(../images/banner-bg.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	text-align: center;
+}
+.txt1 h6{
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+.txt1 h1{
+	color: white;
+	font-size: 48px;
+	font-family: 'Spectral', serif;
+}
+.txt1 p{
+	color: white;
+	font-size: 14px;
+}
+.txt1 .primary-button {
+	margin-top: 30px;
+	
+}
+.primary-button a {
+	display: inline-block;
+	background-color: #f2745f;
+	color: #fff;
+	font-size: 13px;
+	text-transform: uppercase;
+	font-weight: 500;
+	padding: 12px 20px;
+	border-radius: 3px;
+	text-decoration: none;
+	letter-spacing: 0.5px;
+}
