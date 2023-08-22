@@ -12,7 +12,6 @@
    <div class="header">
       <div class="containter">
             <a class="navbar-brand scroll-top" href="index.html">VICTORY</a>
-
             <nav class="navbar navbar-expand-lg navbar-inverse">
                <div class="navbar-header">
                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main-nav" aria-controls="main-nav" aria-expanded="false" aria-label="Toggle navigation">
@@ -28,13 +27,13 @@
                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
                      </li>
                      <li class="nav-item">
-                       <a class="nav-link" href="#">Our Menus</a>
+                       <a class="nav-link" href="Menu.html">Our Menus</a>
                      </li>
                      <li class="nav-item">
-                       <a class="nav-link" href="#">Blog Entries</a>
+                       <a class="nav-link" href="Blog.html">Blog Entries</a>
                      </li>
                      <li class="nav-item">
-                        <a class="nav-link" href="#">Contact Us</a>
+                        <a class="nav-link" href="Contact.html">Contact Us</a>
                       </li>
 
                   </ul>
@@ -50,10 +49,332 @@
         <h1><b>ASIAN RESTAURANT</b></h1>
         <p class="text-break">Quisque nec nibh id lacus fringilla eleifend sed sit amet sem. Donec lectus odio, mollis<br>a nisl non, tempor interdum nisl</p>
         <div class="primary-button">
-          <a href="#" class="scroll-link" data-id="book-table" type="button">Order Right Now</a>
+          <a href="#book-table" class="scroll-link" data-id="book-table" type="button">Order Right Now</a>
         </div>
       </div>
   <!-- banner close -->
+  <!-- order page open -->
+  <div class="row font justify-content-center align-items-end">
+    <div class="col-lg-4 col-sm-12 cls1">
+       <img class="float-end" src="images/cook_01.jpg" height="219px" width="292px" alt="">
+      </div>
+       <div class="col-lg-3 bg1">
+        <h3 class="mrg1">WE COOK DELECIOUS</h3>
+        <div class="row bg2">
+          <div class="col-lg cls3">
+            <p>YOU CAN CALL US ON:</p>
+            <p class="cls4"><b>+ 1234 567 8910</b></p>
+         </div>
+        </div>
+        <div class="row">
+          <div class="col-lg">
+            <span class="bor1">or</span>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-lg">
+            <a href="#book-table" class="btn btn-outline-light btn1">order now</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-sm-12  cls2">
+        <img class="float-start" src="images/cook_02.jpg" height="220px" width="293px" alt="">
+      </div>
+       </div>
+
+        <!-- order page close -->
+        <!-- roundimg -->
+        <div class="row justify-content-center cls5 ">
+          <div class="col-lg-2 col-sm-12 text-center">
+            <a href=""><img src="images/cook_breakfast.png" alt="">
+            <p>Breakfast</p></a>
+          </div>
+          <div class="col-lg-2 col-sm-12 text-center">
+            <a href=""><img src="images/cook_lunch.png" alt="">
+            <p>Lunch</p></a>
+          </div>
+          <div class="col-lg-2 col-sm-12 text-center">
+            <a href=""><img src="images/cook_dinner.png" alt="">
+            <p>Dinner</p></a>
+          </div>
+          <div class="col-lg-2 col-sm-12 text-center">
+            <a href=""><img src="images/cook_dessert.png" alt="">
+            <p>Dessert</p></a>
+          </div>
+        </div>
+        <!-- roundimg close -->
+        <!-- reservation start -->
+        <section id="book-table">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-md-12">
+                <div class="heading">
+                <h2>Book your table now</h2>
+                </div>
+              </div>
+              <div class="col-md-4 col-md-offset-2 col-sm-12">
+                <div class="left-image">
+                    <img src="images/book_left_image.jpg" alt="">
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-12">
+              <div class="right-info">
+                <h4>Reservation</h4>
+                <form action="" id="form-submit" method="get">
+                  <div class="row">
+                    <div class="col-md-6">
+                      <fieldset>
+                        <select required name="day" onchange='this.form()'>
+                        <option value="">Select day</option>
+                        <option value="Monday">Monday</option>
+                        <option value="Tuesday">Tuesday</option>
+                        <option value="Wednesday">Wednesday</option>
+                        <option value="Thursday">Thursday</option>
+                        <option value="Friday">Friday</option>
+                        <option value="Saturday">Saturday</option>
+                        <option value="Sunday">Sunday</option>
+                      </select>
+                      </fieldset>
+                    </div>
+                      <div class="col-md-6">
+                        <fieldset>
+                          <select name="hour" onchange='this.form()'>
+                            <option value="">Select day</option>
+                            <option value="10-010">10:00</option>
+                            <option value="12-00">12:00</option>
+                            <option value="14-00">14:00</option>
+                            <option value="16-00">16:00</option>
+                            <option value="18-00">18:00</option>
+                            <option value="20-00">20:00</option>
+                            <option value="22-00">22:00</option>
+                          </select>
+                        </fieldset>
+                      </div>
+                      <div class="col-md-6">
+                        <fieldset>
+                          <input type="text" name="name" class="form-control" id="name" placeholder="Full name" required>
+                        </fieldset>
+                      </div>
+                      <div class="col-md-6">
+                        <fieldset>
+                          <input type="phone" name="phone" class="form-control" id="phone" placeholder="Phone Number" required>
+                        </fieldset>
+                      </div>
+                      <div class="col-md-6">
+                        <fieldset>
+                          <select name="hour" onchange='this.form()'>
+                            <option value="">How Many person</option>
+                            <option value="1-person">1 person</option>
+                            <option value="2-person">2 person</option>
+                            <option value="3-person">3 person</option>
+                            <option value="4-person">4 person</option>
+                            <option value="5-person">5 person</option>
+                            <option value="6-person">6 person</option>
+                          </select>
+                        </fieldset>
+                      </div>
+                      <div class="col-md-6">
+                        <fieldset>
+                          <button type="submit" id="form-submit" class="btn" value="">Book Table</button>
+                        </fieldset>
+                      </div>
+                  </div>
+                </form>
+              </div>
+              </div>
+            </div>
+
+          </div>
+
+        </section>
+        <!-- reservation close -->
+
+        <!-- downloading page start -->
+
+        <div class="row ">
+          <div class="col-lg download">
+          <p><b>GET APPLICATION FOR YOUR PHONE</b></p>
+             <a href="index.html" class="btn btn-outline-light btn2">DOWNLOAD NOW</a>
+            </div>
+          </div>
+          <!-- download page end -->
+          <!-- weekilyfood start -->
+          <section class="weeklyfood">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 col-sm-12 text-center">
+                  <h1>Weekly feartured food</h1>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-md-4">
+                  <div class="items">
+                    <h2>Breakfast</h2>
+                    <img src="images/breakfast_item.jpg" alt="">
+                    <div class="price">$4.50</div>
+                    <div class="text-content">
+                      <h4>Kale Chips Art Party</h4>
+                      <p class="text-muted">Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean shorts hexagon street art knausgaard wolf...</p>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4">
+                  <div class="items">
+                    <h2>Lunch</h2>
+                    <img src="images/lunch_item.jpg" alt="">
+                    <div class="price">$4.50</div>
+                    <div class="text-content">
+                      <h4>Taiyaki Gastro Tousled</h4>
+                      <p class="text-muted">Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean shorts hexagon street art knausgaard wolf...</p>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="col-md-4">
+                  <div class="items">
+                    <h2>Dinner</h2>
+                    <img src="images/dinner_item.jpg" alt="">
+                    <div class="price">$4.50</div>
+                    <div class="text-content">
+                      <h4>Batch Squid Jean Shorts</h4>
+                      <p class="text-muted">Dreamcatcher squid ennui cliche chicharros nes echo  small batch jean shorts hexagon street art knausgaard wolf...</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- weekilyfood end -->
+          <!-- blog start -->
+          <section class="blog">
+            <div class="container">
+              <div class="row">
+                <div class="col-md-12">
+                  <div class="heading">
+                    <h2>Our Blog Post</h2>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-md-6">
+                  <div class="post">
+                    <img src="images/blog_post_01.jpg" alt="">
+                    <div class="date">26 Oct 2020</div>
+                    <div class="right-content">
+                        <h4>Stumptown Tofu Schlitz</h4>
+                        <span>Branding / Admin</span>
+                        <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy drinking vinegar chambra meggings kale chips hexagon...</p>
+                        <div class="text-button">
+                            <a href="#">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                  
+                </div>
+                <div class="col-md-6">
+                  <div class="post">
+                    <img src="images/blog_post_02.jpg" alt="">
+                    <div class="date">21 Oct 2020</div>
+                    <div class="right-content">
+                        <h4>Succulents Hashtag Folk</h4>
+                        <span>Branding / Admin</span>
+                        <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy drinking vinegar chambra meggings kale chips hexagon...</p>
+                        <div class="text-button">
+                            <a href="#">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                  
+                </div>
+                <div class="col-md-6">
+                  <div class="post">
+                    <img src="images/blog_post_03.jpg" alt="">
+                    <div class="date">11 Oct 2020</div>
+                    <div class="right-content">
+                        <h4>Knaus Sriracha Pinterest</h4>
+                        <span>Dessert / Chef</span>
+                        <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy drinking vinegar chambra meggings kale chips hexagon...</p>
+                        <div class="text-button">
+                            <a href="#">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                  
+                </div>
+                <div class="col-md-6">
+                  <div class="post">
+                    <img src="images/blog_post_04.jpg" alt="">
+                    <div class="date">03 Oct 2020</div>
+                    <div class="right-content">
+                        <h4>Crucifix Selvage Coat</h4>
+                        <span>Plate / Chef</span>
+                        <p>Skateboard iceland twee tofu shaman crucifix vice before they sold out corn hole occupy drinking vinegar chambra meggings kale chips hexagon...</p>
+                        <div class="text-button">
+                            <a href="#">Continue Reading</a>
+                        </div>
+                    </div>
+                </div>
+                  
+                </div>
+              </div>
+
+            </div>
+          </section>
+          <!-- blog end -->
+          <!-- signin start0 -->
+          <section class="sign-up">
+            <div class="container">
+              <div class="row">
+                  <div class="col-md-12">
+                      <div class="heading">
+                          <h2>Signup for our newsletters</h2>
+                      </div>
+                  </div>
+              </div>
+              <form  id="contact" action="" method="get">
+                  <div class="row justify-content-center">
+                      <div class="col-md-4 col-md-offset-3">
+                          <fieldset>
+                              <input name="email" type="text" class="form-control" id="email" placeholder="Enter your email here..." required="">
+                          </fieldset>
+                      </div>
+                      <div class="col-md-2">
+                          <fieldset>
+                              <button type="submit" id="form-submit" class="btn">Send Message</button>
+                          </fieldset>
+                      </div>
+                  </div>
+              </form>
+          </div>
+          </section>
+          <!-- signin end -->
+          <!-- footer start -->
+          <footer class="foot">
+            <div class="container">
+              <div class="row rre justify-content-center">
+                <div class="col-md-4">
+                  <p>Copyright &copy; 2020 Tasc Template</p>
+                </div>
+                <div class="col-md-4">
+                  <ul>
+                    <li class="rounded-circle" ><a href="https://www.facebook.com"><i><img src="images/icons8-facebook-48.png" height="15px" width="15px" alt=""></i></a></li>
+                    <li class="rounded-circle" ><a href="#"><i><img src="images/icons8-twitter-48.png" height="15px" width="15px" alt=""></i></a></li>
+                    <li class="rounded-circle" ><a href="#"><i><img src="images/icons8-linkedin-2-48.png" height="15px" width="15px" alt=""></i></a></li>
+                    <li class="rounded-circle" ><a href="#"><i><img src="images/icons8-rss-48.png" height="15px" width="15px" alt=""></i></a></li>
+                    <li class="rounded-circle" ><a href="#"><i><img src="images/icons8-dribbble-48.png" height="15px" width="15px" alt=""></i></a></li>
+                </div>
+                <div class="col-md-4">
+                  <p>Design:  TASC Boys</p>
+                </div>
+              </div>
+            </div>
+          </footer>
+          <!-- footer end -->
+          
+   
+  
   
 
 
