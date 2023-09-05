@@ -1,5 +1,5 @@
-.cls1{
-    background-image: url(../portfoliosite/image/bg.jpg);
+.img{
+    background-image: url('image/bg.jpg');
     color: white;
     padding-top: 400px;  
 }
@@ -22,4 +22,27 @@ a{
     border-bottom: 2px solid #18d26e;
     padding-bottom: 6px;
     color: white;
+}
+.social{
+    margin-top: 25px;
+  display: flex;
+}
+.social a{
+    font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(255, 255, 255, 0.1);
+  color: #fff;
+  line-height: 1;
+  margin-right: 8px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+.social a :hover{
+    background: #18d26e;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
 }
