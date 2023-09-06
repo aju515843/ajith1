@@ -1,7 +1,21 @@
 .img{
     background-image: url('image/bg.jpg');
     color: white;
-    padding-top: 400px;  
+    padding-top: 200px; 
+    height: 100vh;
+    position: fixed;
+}
+.bio{
+    font-size: 25px;
+    padding-top: 15px;
+}
+.container-fluid h1{
+    font-size: 54px;
+
+}
+.container-fluid h1 :hover{
+    color: white;
+    
 }
 a{
     color: white;
@@ -10,11 +24,7 @@ a{
     position: relative;
     left: 130px;
 }
-.navbar{
-    position: relative;
-    right: 20px;
-    
-}
+
 .navbar a{
     color: white;
 }
@@ -23,9 +33,17 @@ a{
     padding-bottom: 6px;
     color: white;
 }
+.nav-item :hover{
+    background-color: #18d26e;
+    color: white;
+    border-radius: 50%;
+    width: 80px;
+    
+}
 .social{
     margin-top: 25px;
   display: flex;
+  
 }
 .social a{
     font-size: 16px;
@@ -45,4 +63,13 @@ a{
     width: 40px;
     height: 40px;
     border-radius: 50%;
+}
+.editor{
+    color: #18d26e;   
+}
+.cls3{
+    position: relative;
+    left: 1310px;
+    top: 300px;
+    font-size: 15px;
 }
