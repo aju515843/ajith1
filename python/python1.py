@@ -126,4 +126,31 @@
 
 
 
-   
+# ?)wirte a program to display the last digits of a number.
+# a=int(input("enter a number"))
+# x=a%10
+# print("the last digits is",x)
+
+
+# ?) calculate electricity bill.
+# a=int(input("enter the unit of electricity"))
+# if(a<100):
+#     print("no charge")
+# elif(a>100 and a<=200):
+#     x=(a-100)*5
+#     print("electricity bill",x)
+# elif(a>200):
+#     x=500+(a-200)*10
+#     print("electricity bill",x)
+    
+
+
+
+
+
+# ?)to accept a number from 1 to 7 and display name of the day like 1 for sunday,2 for monday and so on
+a=int(input("enter a number"))
+a{1:"sunday",
+  2:"monday",
+  3:"tuesday",
+  4:"we"}
