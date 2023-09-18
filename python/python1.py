@@ -148,9 +148,40 @@
 
 
 
-# ?)to accept a number from 1 to 7 and display name of the day like 1 for sunday,2 for monday and so on
-a=int(input("enter a number"))
-a{1:"sunday",
-  2:"monday",
-  3:"tuesday",
-  4:"we"}
+# ?)Write a program that takes a list of strings as input and outputs the length of each string using a while loop.
+# n=int(input("Enter limit"))
+# i=1
+# list=[]
+# count=[]
+# while(i>=0 and i<=n):
+#     a=input("enter the string")
+#     list.append(a)
+#     b=len(a)
+#     count.append(b)
+#     i=i+1 
+# print(list)
+# print(count)    
+
+
+
+# ?)Write a program that takes a string as input and outputs the number of times each character appears in the string using a while loop.    
+# string=input("Enter string")
+# print(string)
+# char=input("Enter charecter to be counted")
+# i=0
+# count=0
+# while(i<len(string)):
+#     if(string[i]==char):
+#         count=count+1
+#     i=i+1 
+# print("Number of charecter appered is",count)    
+
+
+# ?)Write a program that takes two lists of integers as input and returns a list containing the common elements using a while loop.
+n=int(input("Enter limit"))
+i=1
+list1=[]
+list2=[]
+result=[]
+while(i>=0 and i<=n):
+    
