@@ -178,10 +178,45 @@
 
 
 # ?)Write a program that takes two lists of integers as input and returns a list containing the common elements using a while loop.
-n=int(input("Enter limit"))
-i=1
-list1=[]
-list2=[]
-result=[]
-while(i>=0 and i<=n):
+# n=int(input("Enter the first limit"))
+# i=1
+# list1=[]
+# list2=[]
+# result=[]
+# while(i>=0 and i<=n):
+#     a=int(input("Enter the integers"))
+#     list1.append(a)
+#     i=i+1
+# m=int(input("Enter the second limit"))
+# j=1
+# while(j>=0 and j<=m):
+#     b=int(input("Enter the integers"))
+#     list2.append(b)
+#     j=j+1
+# k=0
+# while(k<len(list1)):
+#     if(list1[k] in list2):
+#         result.append(list1[k])
+#         k=k+1
+#     print(list1)
+#     print(list2)
+#     print(result)          
+
+
+# ?)Write a program that takes a string as input and outputs the string in reverse order using a while loop.
+# n=int(input("Enter a string"))
+# reverse=0
+# while(n!=0):
+#     x=n%10
+#     reverse=reverse*10+x
+#     n//=10
+# print(reverse)    
+
+# ?)Write a program that takes a list of integers as input and outputs the sum of the integers using a while loop.
+# n=int(input("Enter the value:"))
+# sum=0
+# while(n>=0):
+#     sum+=n
+#     n-=1
     
+# print("sum is",sum)
