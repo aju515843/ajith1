@@ -36,8 +36,8 @@
 #       print("smaller")
 
 
- hub login
-# ?)find greater number the 3 digits given by the user?
+
+'''?)find greater number the 3 digits given by the user?'''
 # a=int(input("enter the first value"))
 # b=int(input("enter the second value"))
 # c=int(input("enter the 3rd value"))    
@@ -53,7 +53,7 @@
 
 
 
-# ?)check whether the given number is even or odd?
+'''?)check whether the given number is even or odd?'''
 # a=int(input("enter the value"))
 # if(a%2==0):
 #    print("number is odd")
@@ -62,7 +62,7 @@
 
 
 
-# ?)leap year?
+'''?)leap year?'''
 # a=int(input("enter year"))
 # if(a%4==0):
 #     print("is a leap year")
@@ -71,7 +71,7 @@
 
 
 
-# ?)tuple
+'''?)tuple'''
 # t=(1,2,3,4,5,"hai")
 # y=list(t)
 # y[5]="hello"
@@ -80,14 +80,14 @@
 
 
 
-# ?)list
+'''?)list'''
 # list1=[1,2,9,4,5,6,7]
 # list1[3]=3
 # print(list1)
 
 
 
-# ?)set
+'''?)set'''
 # s={1,2,3,4,5,"hai"}
 # y=list(s)
 # y[3]="hello"
@@ -95,7 +95,7 @@
 # print(s)
 
 
-# ?) WAP to check whether the last digit of a number is divisible by 3 or not?
+'''?) WAP to check whether the last digit of a number is divisible by 3 or not?'''
 # a=int(input("enter a number"))
 # if(a%3!=1):
 #   print("number is divisible by 3")
@@ -104,7 +104,7 @@
 
 
    
-# ?)display "HELLO" if entered number is divisible by 5 otherwise print bye
+'''?)display "HELLO" if entered number is divisible by 5 otherwise print bye'''
 # a=int(input("enter number"))
 # if(a%5!=1):
 #   print("HELLO")
@@ -113,7 +113,7 @@
 
 
 
-# ?)to accept percentage from the user and display the grade according following criteria
+'''?)to accept percentage from the user and display the grade according following criteria'''
 # n=int(input("enter mark"))
 # if(n>90):
 #   print("A grade")
@@ -126,14 +126,20 @@
 
 
 
-# ?)wirte a program to display the last digits of a number.
+'''?)wirte a program to display the last digits of a number.'''
 # a=int(input("enter a number"))
 # x=a%10
 # print("the last digits is",x)
 
 
-# ?) calculate electricity bill.
-# a=int(input("enter the unit of electricity"))
+'''?) calculate electricity bill.'''
+# a=int(in=int(input("Enter the value:"))
+# sum=0
+# while(n>=0):
+#     sum+=n
+#     n-=1
+    
+'''print("sum is",sum)nput("enter the unit of electricity"))'''
 # if(a<100):
 #     print("no charge")
 # elif(a>100 and a<=200):
@@ -148,7 +154,7 @@
 
 
 
-# ?)Write a program that takes a list of strings as input and outputs the length of each string using a while loop.
+'''?)Write a program that takes a list of strings as input and outputs the length of each string using a while loop.'''
 # n=int(input("Enter limit"))
 # i=1
 # list=[]
@@ -163,7 +169,13 @@
 # print(count)    
 
 
-
+# n=int(input("Enter the value:"))
+# sum=0
+# while(n>=0):
+#     sum+=n
+#     n-=1
+    
+# print("sum is",sum)
 # ?)Write a program that takes a string as input and outputs the number of times each character appears in the string using a while loop.    
 # string=input("Enter string")
 # print(string)
@@ -213,10 +225,53 @@
 # print(reverse)    
 
 # ?)Write a program that takes a list of integers as input and outputs the sum of the integers using a while loop.
-# n=int(input("Enter the value:"))
+# n=int(input("Enter the limit of list:"))
+# integers=[]
 # sum=0
-# while(n>=0):
-#     sum+=n
-#     n-=1
-    
-# print("sum is",sum)
+# element=0
+# i=1
+# while(i>=0 and i<=n):
+#     a=int(input("Enter integer value"))
+#     integers.append(a)
+#     i=i+1
+# while(element<len(integers)):
+#     sum=sum+integers[element]
+#     element=element+1
+# print("list of integers",integers) 
+# print("sum of integers",sum)  
+
+
+#  ?)Write a program that takes a list of integers as input and outputs the largest integer in the list using a while loop.
+# a = [1,2,5,8,4,99,3]
+# x = 0 
+# y = 0
+# while(y != len(a)):
+#     if x < a[y]:
+#         x = a[y]
+#     y += 1
+# print(x)  
+
+
+# ?)Write a program that takes a string as input and outputs the number of words in the string using a while loop.
+# n=(input("enter a string"))
+# i=0
+# while(i<len(n)):
+#       b=len(n)
+#       i=i+1
+# print(b)
+
+
+# ?)Write a program that takes a list of strings as input and outputs a new list containing only the strings with more than five characters using a while loop.
+# n=int(input("enter limit of string"))
+# i=0
+# count=[]
+# list=[]
+# while(i<=0 and i<=n):
+#     a=(input("enter string"))
+#     list.append(a)
+#     b=len(a)
+#     i=i+1
+#     if(b>5):
+#         count.append(b)
+# print("full string",list)
+# print("more than 5 charecter of string",count)
