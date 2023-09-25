@@ -36,7 +36,7 @@
 #       print("smaller")
 
 
- hub login
+ 
 # ?)find greater number the 3 digits given by the user?
 # a=int(input("enter the first value"))
 # b=int(input("enter the second value"))
@@ -156,7 +156,17 @@
 # while(i>=0 and i<=n):
 #     a=input("enter the string")
 #     list.append(a)
-#     b=len(a)
+#     b=len(a) bill",x)
+    
+
+
+
+
+
+# ?)Write a program that takes a list of strings as input and outputs the length of each string using a while loop.
+# n=int(input("Enter limit"))
+# i=1
+# list=[]
 #     count.append(b)
 #     i=i+1 
 # print(list)
@@ -220,3 +230,35 @@
 #     n-=1
     
 # print("sum is",sum)
+
+
+
+
+# A
+# AB
+# ABC   
+# for i in range (65,70):
+#     for j in range(65,i+1):
+#         print(chr(j),end="")
+#     print()
+
+# A
+# BC
+# DEF
+# n= 65
+# for i in range(0,6):
+#     for j in range(0,i+1):
+#         char = chr(n)
+#         print(char,end="")
+#         n += 1
+#     print()
+
+# A
+# BA
+# CBA
+# n=65
+# str="ABACBA"
+# for i in range(0,3):
+#     for j in range(0,i+1):
+#         print(str[j],end="")
+#     print()
