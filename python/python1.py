@@ -30,9 +30,9 @@
 
 
 
-#if(6>5):
+# if(6>5):
 #       print("greater")
-#else:
+# else:
 #       print("smaller")
 
 
@@ -55,6 +55,8 @@
 
 # ?)check whether the given number is even or odd?
 # a=int(input("enter the value"))
+# elif(b>c):
+#     print("second value is greater")
 # if(a%2==0):
 #    print("number is odd")
 # else:
@@ -99,6 +101,8 @@
 # a=int(input("enter a number"))
 # if(a%3!=1):
 #   print("number is divisible by 3")
+# elif(b>c):
+#     print("second value is greater")
 # else:
 #   print("numbe not divisible by 3") 
 
@@ -257,8 +261,59 @@
 # BA
 # CBA
 # n=65
-# str="ABACBA"
+# str="ABC"
 # for i in range(0,3):
 #     for j in range(0,i+1):
+#         k=j-1
+#         print(str[k],end="")
+#     print()
+
+
+# P
+# PY
+# PYT
+# PYTH
+# PYTHO
+# PYTHON
+# PYTHO
+# PYTH
+# PYT
+# PY
+# # P
+# str="PYTHON"
+# for i in range(0,6):
+#     for j in range(0,i+1):
 #         print(str[j],end="")
+#     print()
+# for i in range(6,0,-1):
+#     for j in range(i):
+#         print(str[j], end='')
+#     print()     
+
+
+
+
+# ?)paliandrome,find the words is a string/sentence which are paliandrome and convert the words of each charecter with @.
+# n=input("enter a string")
+# y=n.split()
+# s=''
+# for i in y:
+#     x=i[::-1]
+#     if i.lower()==x.lower():
+#         # print("@"*len(i))
+#         s+="@"*len(i)
+#     else:       
+#       s+=i
+#     print(s) 
+
+ 
+# ?)****#     print()
+#   *******
+#   ***
+#   **
+#   *****
+# l=[4,7,3,2,5]
+# for i in range(0,len(l)):
+#     for j in range(0,l[i]):
+#         print("*",end="")
 #     print()
