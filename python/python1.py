@@ -37,7 +37,7 @@
 
 
  
-# ?)find greater number the 3 digits given by the user?
+'''?)find greater number the 3 digits given by the user?'''
 # a=int(input("enter the first value"))
 # b=int(input("enter the second value"))
 # c=int(input("enter the 3rd value"))    
@@ -53,7 +53,7 @@
 
 
 
-# ?)check whether the given number is even or odd?
+'''?)check whether the given number is even or odd?'''
 # a=int(input("enter the value"))
 # elif(b>c):
 #     print("second value is greater")
@@ -64,7 +64,7 @@
 
 
 
-# ?)leap year?
+'''?)leap year?'''
 # a=int(input("enter year"))
 # if(a%4==0):
 #     print("is a leap year")
@@ -73,7 +73,7 @@
 
 
 
-# ?)tuple
+'''?)tuple'''
 # t=(1,2,3,4,5,"hai")
 # y=list(t)
 # y[5]="hello"
@@ -82,14 +82,14 @@
 
 
 
-# ?)list
+'''?)list'''
 # list1=[1,2,9,4,5,6,7]
 # list1[3]=3
 # print(list1)
 
 
 
-# ?)set
+'''?)set'''
 # s={1,2,3,4,5,"hai"}
 # y=list(s)
 # y[3]="hello"
@@ -97,7 +97,7 @@
 # print(s)
 
 
-# ?) WAP to check whether the last digit of a number is divisible by 3 or not?
+'''?) WAP to check whether the last digit of a number is divisible by 3 or not?'''
 # a=int(input("enter a number"))
 # if(a%3!=1):
 #   print("number is divisible by 3")
@@ -108,7 +108,7 @@
 
 
    
-# ?)display "HELLO" if entered number is divisible by 5 otherwise print bye
+'''?)display "HELLO" if entered number is divisible by 5 otherwise print bye'''
 # a=int(input("enter number"))
 # if(a%5!=1):
 #   print("HELLO")
@@ -117,7 +117,7 @@
 
 
 
-# ?)to accept percentage from the user and display the grade according following criteria
+'''?)to accept percentage from the user and display the grade according following criteria'''
 # n=int(input("enter mark"))
 # if(n>90):
 #   print("A grade")
@@ -130,14 +130,14 @@
 
 
 
-# ?)wirte a program to display the last digits of a number.
+'''?)wirte a program to display the last digits of a number.'''
 # a=int(input("enter a number"))
 # x=a%10
 # print("the last digits is",x)
 
 
-# ?) calculate electricity bill.
-# a=int(input("enter the unit of electricity"))
+'''?) calculate electricity bill.'''
+# a=int(input("enter the unit of electric?) calculate electricity bill.ity"))
 # if(a<100):
 #     print("no charge")
 # elif(a>100 and a<=200):
@@ -150,9 +150,7 @@
 
 
 
-
-
-# ?)Write a program that takes a list of strings as input and outputs the length of each string using a while loop.
+'''?)Write a program that takes a list of strings as input and outputs the length of each string using a while loop.'''
 # n=int(input("Enter limit"))
 # i=1
 # list=[]
@@ -167,7 +165,7 @@
 
 
 
-# ?)Write a program that takes a list of strings as input and outputs the length of each string using a while loop.
+'''?)Write a program that takes a list of strings as input and outputs the length of each string using a while loop.'''
 # n=int(input("Enter limit"))
 # i=1
 # list=[]
@@ -178,7 +176,7 @@
 
 
 
-# ?)Write a program that takes a string as input and outputs the number of times each character appears in the string using a while loop.    
+'''# ?)Write a program that takes a string as input and outputs the number of times each character appears in the string using a while loop. '''   
 # string=input("Enter string")
 # print(string)
 # char=input("Enter charecter to be counted")
@@ -191,7 +189,7 @@
 # print("Number of charecter appered is",count)    
 
 
-# ?)Write a program that takes two lists of integers as input and returns a list containing the common elements using a while loop.
+'''?)Write a program that takes two lists of integers as input and returns a list containing the common elements using a while loop.'''
 # n=int(input("Enter the first limit"))
 # i=1
 # list1=[]
@@ -217,7 +215,7 @@
 #     print(result)          
 
 
-# ?)Write a program that takes a string as input and outputs the string in reverse order using a while loop.
+'''?)Write a program that takes a string as input and outputs the string in reverse order using a while loop.'''
 # n=int(input("Enter a string"))
 # reverse=0
 # while(n!=0):
@@ -226,7 +224,7 @@
 #     n//=10
 # print(reverse)    
 
-# ?)Write a program that takes a list of integers as input and outputs the sum of the integers using a while loop.
+'''?)Write a program that takes a list of integers as input and outputs the sum of the integers using a while loop.'''
 # n=int(input("Enter the value:"))
 # sum=0
 # while(n>=0):
@@ -238,23 +236,23 @@
 
 
 
-# A
-# AB
-# ABC   
+'''A
+AB
+ABC '''  
 # for i in range (65,70):
 #     for j in range(65,i+1):
 #         print(chr(j),end="")
 #     print()
 
-# A
-# BC
-# DEF
+'''A
+BC
+DEF'''
 # n= 65
 # for i in range(0,6):
 #     for j in range(0,i+1):
 #         char = chr(n)
 #         print(char,end="")
-#         n += 1
+#         n += 1?) calculate electricity bill.
 #     print()
 
 # A
@@ -269,17 +267,17 @@
 #     print()
 
 
-# P
-# PY
-# PYT
-# PYTH
-# PYTHO
-# PYTHON
-# PYTHO
-# PYTH
-# PYT
-# PY
-# # P
+'''P
+PY
+PYT
+PYTH
+PYTHO
+PYTHON
+PYTHO
+PYTH
+PYT
+PY
+# P'''
 # str="PYTHON"
 # for i in range(0,6):
 #     for j in range(0,i+1):
@@ -293,7 +291,7 @@
 
 
 
-# ?)paliandrome,find the words is a string/sentence which are paliandrome and convert the words of each charecter with @.
+'''?)paliandrome,find the words is a string/sentence which are paliandrome and convert the words of each charecter with @.'''
 # n=input("enter a string")
 # y=n.split()
 # s=''
@@ -307,13 +305,81 @@
 #     print(s) 
 
  
-# ?)****#     print()
-#   *******
-#   ***
-#   **
-#   *****
+'''?)****
+  *******
+  ***
+  **
+  *****'''
 # l=[4,7,3,2,5]
 # for i in range(0,len(l)):
 #     for j in range(0,l[i]):
 #         print("*",end="")
 #     print()
+
+
+'''# functions'''
+# def add(a,b):
+#     sum=a+b
+#     print(sum)
+# add(11,5)
+# add(6,7)
+
+
+
+'''# write a function that takes a  name as input and returns the name with all initials capitalized. for example, if the input is "john smith," the output should be "John Smith".?'''
+# n=input("enter the name")
+# def title(n):
+#  print("after capitalize",)
+# print(n.title())
+
+'''# remove special charecters
+# string is:"hello@#$%$@#%"
+# output will be:hello'''
+# n=input("Enter string:")
+# print("before conversion",n)
+# m=""
+# for i in n:
+#     if i.isalnum():
+#         m+=i
+# print(m)
+ 
+        
+
+'''factorial of number'''
+# n=int(input("enter a number"))
+# fact=1
+# if(n<0):
+#   print("negative number")
+# elif(n==0):
+#   print("factorial zero is 1")
+# else:    
+#   for i in range(1,n+1):
+#       fact=fact*i
+#   print("Factorial of",n,"is",fact)
+
+
+'''fibanocii series'''
+# n=int(input("enter a number"))
+# a=0
+# b=1
+# print("fibanocci series is:",a,b,end="")
+# for i in range(2,n):
+#     k=a+b
+#     a=b
+#     b=k
+#     print(k,end=" ")
+# print()   
+
+
+'''prime number series'''
+# n=int(input("enter the starting limit"))
+# m=int(input("enter the end point"))
+# print("prime number b/w",n,"and",m,"are:")
+# for num in range(n,m+1):
+#     if(num>1):
+#         for i in range(2,num):
+#             if(num%i)==0:
+#                 break
+#         else:
+#             print(num)
+                  
