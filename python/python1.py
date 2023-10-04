@@ -382,4 +382,51 @@ PY
 #                 break
 #         else:
 #             print(num)
-                  
+          
+
+
+'''convert a decimal number to binary,octal and hexadecimal using function'''
+# dec=int(input("Enter a number:"))
+# def convertToBinary(n):
+#     if(n>1):
+#         convertToBinary(n//2)
+#     print(n%2,end="")
+# def convertToOctal(n):
+#     if(n>1):
+#         convertToOctal(n//8)
+#     print(n%8,end="")
+# def convertToHexadecimal(n):
+#     if(n>1):
+#         convertToHexadecimal(n//16)
+#     print(n%16,end="")    
+# convertToBinary(dec)
+# print(" is a Binary number")
+# convertToOctal(dec)
+# print(" is a Octal number")
+# convertToHexadecimal(dec)
+# print(" is a Hexadecimal number")
+      
+
+'''implement a function that sorts a list of numbers in ascending or decending order according to the user input.'''
+# list=[11,3,7,5,6]
+# list.sort()
+# print("Acending Order",list)  
+# list.sort(reverse=True) 
+# print("Descending Order",list) 
+
+
+'''*
+   1
+   * *
+   1 2
+   * * *
+   3 2 1
+   * * * *
+   1 2 3 4
+   * * * * *
+   5 4 3 2 1
+   * * * * * *
+   1 2 3 4 5 6 
+   * * * * * * *
+   7 6 5 4 3 2 1'''
+
