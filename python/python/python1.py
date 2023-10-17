@@ -30,13 +30,13 @@
 
 
 
-#if(6>5):
+# if(6>5):
 #       print("greater")
-#else:
+# else:
 #       print("smaller")
 
 
-
+ 
 '''?)find greater number the 3 digits given by the user?'''
 # a=int(input("enter the first value"))
 # b=int(input("enter the second value"))
@@ -55,6 +55,8 @@
 
 '''?)check whether the given number is even or odd?'''
 # a=int(input("enter the value"))
+# elif(b>c):
+#     print("second value is greater")
 # if(a%2==0):
 #    print("number is odd")
 # else:
@@ -99,6 +101,8 @@
 # a=int(input("enter a number"))
 # if(a%3!=1):
 #   print("number is divisible by 3")
+# elif(b>c):
+#     print("second value is greater")
 # else:
 #   print("numbe not divisible by 3") 
 
@@ -133,13 +137,7 @@
 
 
 '''?) calculate electricity bill.'''
-# a=int(in=int(input("Enter the value:"))
-# sum=0
-# while(n>=0):
-#     sum+=n
-#     n-=1
-    
-'''print("sum is",sum)nput("enter the unit of electricity"))'''
+# a=int(input("enter the unit of electric?) calculate electricity bill.ity"))
 # if(a<100):
 #     print("no charge")
 # elif(a>100 and a<=200):
@@ -152,8 +150,6 @@
 
 
 
-
-
 '''?)Write a program that takes a list of strings as input and outputs the length of each string using a while loop.'''
 # n=int(input("Enter limit"))
 # i=1
@@ -162,21 +158,25 @@
 # while(i>=0 and i<=n):
 #     a=input("enter the string")
 #     list.append(a)
-#     b=len(a)
+#     b=len(a) bill",x)
+    
+
+
+
+
+
+'''?)Write a program that takes a list of strings as input and outputs the length of each string using a while loop.'''
+# n=int(input("Enter limit"))
+# i=1
+# list=[]
 #     count.append(b)
 #     i=i+1 
 # print(list)
 # print(count)    
 
 
-# n=int(input("Enter the value:"))
-# sum=0
-# while(n>=0):
-#     sum+=n
-#     n-=1
-    
-# print("sum is",sum)
-# ?)Write a program that takes a string as input and outputs the number of times each character appears in the string using a while loop.    
+
+'''# ?)Write a program that takes a string as input and outputs the number of times each character appears in the string using a while loop. '''   
 # string=input("Enter string")
 # print(string)
 # char=input("Enter charecter to be counted")
@@ -189,7 +189,7 @@
 # print("Number of charecter appered is",count)    
 
 
-# ?)Write a program that takes two lists of integers as input and returns a list containing the common elements using a while loop.
+'''?)Write a program that takes two lists of integers as input and returns a list containing the common elements using a while loop.'''
 # n=int(input("Enter the first limit"))
 # i=1
 # list1=[]
@@ -215,7 +215,7 @@
 #     print(result)          
 
 
-# ?)Write a program that takes a string as input and outputs the string in reverse order using a while loop.
+'''?)Write a program that takes a string as input and outputs the string in reverse order using a while loop.'''
 # n=int(input("Enter a string"))
 # reverse=0
 # while(n!=0):
@@ -224,54 +224,244 @@
 #     n//=10
 # print(reverse)    
 
-# ?)Write a program that takes a list of integers as input and outputs the sum of the integers using a while loop.
-# n=int(input("Enter the limit of list:"))
-# integers=[]
+'''?)Write a program that takes a list of integers as input and outputs the sum of the integers using a while loop.'''
+# n=int(input("Enter the value:"))
 # sum=0
-# element=0
-# i=1
-# while(i>=0 and i<=n):
-#     a=int(input("Enter integer value"))
-#     integers.append(a)
-#     i=i+1
-# while(element<len(integers)):
-#     sum=sum+integers[element]
-#     element=element+1
-# print("list of integers",integers) 
-# print("sum of integers",sum)  
+# while(n>=0):
+#     sum+=n
+#     n-=1
+    
+# print("sum is",sum)
 
 
-#  ?)Write a program that takes a list of integers as input and outputs the largest integer in the list using a while loop.
-# a = [1,2,5,8,4,99,3]
-# x = 0 
-# y = 0
-# while(y != len(a)):
-#     if x < a[y]:
-#         x = a[y]
-#     y += 1
-# print(x)  
 
 
-# ?)Write a program that takes a string as input and outputs the number of words in the string using a while loop.
-# n=(input("enter a string"))
-# i=0
-# while(i<len(n)):
-#       b=len(n)
-#       i=i+1
-# print(b)
+'''A
+AB
+ABC '''  
+# for i in range (65,70):
+#     for j in range(65,i+1):
+#         print(chr(j),end="")
+#     print()
+
+'''A
+BC
+DEF'''
+# n= 65
+# for i in range(0,6):
+#     for j in range(0,i+1):
+#         char = chr(n)
+#         print(char,end="")
+#         n += 1?) calculate electricity bill.
+#     print()
+
+# A
+# BA
+# CBA
+# n=65
+# str="ABC"
+# for i in range(0,3):
+#     for j in range(0,i+1):
+#         k=j-1
+#         print(str[k],end="")
+#     print()
 
 
-# ?)Write a program that takes a list of strings as input and outputs a new list containing only the strings with more than five characters using a while loop.
-# n=int(input("enter limit of string"))
-# i=0
-# count=[]
-# list=[]
-# while(i<=0 and i<=n):
-#     a=(input("enter string"))
-#     list.append(a)
-#     b=len(a)
-#     i=i+1
-#     if(b>5):
-#         count.append(b)
-# print("full string",list)
-# print("more than 5 charecter of string",count)
+'''P
+PY
+PYT
+PYTH
+PYTHO
+PYTHON
+PYTHO
+PYTH
+PYT
+PY
+# P'''
+# str="PYTHON"
+# for i in range(0,6):
+#     for j in range(0,i+1):
+#         print(str[j],end="")
+#     print()
+# for i in range(6,0,-1):
+#     for j in range(i):
+#         print(str[j], end='')
+#     print()     
+
+
+
+
+'''?)paliandrome,find the words is a string/sentence which are paliandrome and convert the words of each charecter with @.'''
+# n=input("enter a string")
+# y=n.split()
+# s=''
+# for i in y:
+#     x=i[::-1]
+#     if i.lower()==x.lower():
+#         # print("@"*len(i))
+#         s+="@"*len(i)
+#     else:       
+#       s+=i
+#     print(s) 
+
+ 
+'''?)****
+  *******
+  ***
+  **
+  *****'''
+# l=[4,7,3,2,5]
+# for i in range(0,len(l)):
+#     for j in range(0,l[i]):
+#         print("*",end="")
+#     print()
+
+
+'''# functions'''
+# def add(a,b):
+#     sum=a+b
+#     print(sum)
+# add(11,5)
+# add(6,7)
+
+
+
+'''# write a function that takes a  name as input and returns the name with all initials capitalized. for example, if the input is "john smith," the output should be "John Smith".?'''
+# n=input("enter the name")
+# def title(n):
+#  print("after capitalize",)
+# print(n.title())
+
+'''# remove special charecters
+# string is:"hello@#$%$@#%"
+# output will be:hello'''
+# n=input("Enter string:")
+# print("before conversion",n)
+# m=""
+# for i in n:
+#     if i.isalnum():
+#         m+=i
+# print(m)
+ 
+        
+
+'''factorial of number'''
+# n=int(input("enter a number"))
+# fact=1
+# if(n<0):
+#   print("negative number")
+# elif(n==0):
+#   print("factorial zero is 1")
+# else:    
+#   for i in range(1,n+1):
+#       fact=fact*i
+#   print("Factorial of",n,"is",fact)
+
+
+'''fibanocii series'''
+# n=int(input("enter a number"))
+# a=0
+# b=1
+# print("fibanocci series is:",a,b,end="")
+# for i in range(2,n):
+#     k=a+b
+#     a=b
+#     b=k
+#     print(k,end=" ")
+# print()   
+
+
+'''prime number series'''
+# n=int(input("enter the starting limit"))
+# m=int(input("enter the end point"))
+# print("prime number b/w",n,"and",m,"are:")
+# for num in range(n,m+1):
+#     if(num>1):
+#         for i in range(2,num):
+#             if(num%i)==0:
+#                 break
+#         else:
+#             print(num)
+          
+
+
+'''convert a decimal number to binary,octal and hexadecimal using function'''
+# dec=int(input("Enter a number:"))
+# def convertToBinary(n):
+#     if(n>1):
+#         convertToBinary(n//2)
+#     print(n%2,end="")
+# def convertToOctal(n):
+#     if(n>1):
+#         convertToOctal(n//8)
+#     print(n%8,end="")
+# def convertToHexadecimal(n):
+#     if(n>1):
+#         convertToHexadecimal(n//16)
+#     print(n%16,end="")    
+# convertToBinary(dec)
+# print(" is a Binary number")
+# convertToOctal(dec)
+# print(" is a Octal number")
+# convertToHexadecimal(dec)
+# print(" is a Hexadecimal number")
+      
+
+'''implement a function that sorts a list of numbers in ascending or decending order according to the user input.'''
+# list=[11,3,7,5,6]
+# list.sort()
+# print("Acending Order",list)  
+# list.sort(reverse=True) 
+# print("Descending Order",list) 
+
+
+'''WAP that simulates a game of rock paper scissors.The program should ask the user for their choice.
+*rock beats scissors
+*scissors beats paper
+*paper beats rock'''
+# import random
+# print("select from the list")
+# print("1).Rock")
+# print("2).Paper")
+# print("3).Scissors")
+# user=input("Enter the choice:")
+# r=["rock","paper","scissors"]
+# com=random.choice(r)
+# if(user==com):
+#     print("Its a tie")
+# elif(com==r[0] and user==r[2]):
+#     print("computer wins")
+# elif(com==r[1] and user==r[0]):
+#     print("computer wins")
+# elif(com==r[2] and user==r[1]):
+#     print("computer wins")
+# elif(user==r[0] and com==r[2]):
+#     print("user wins")
+# elif(user==r[1] and com==r[0]):
+#     print("user wins")
+# elif(user==r[2] and com==r[1]):
+#     print("user wins") 
+# else:
+#     print("invalid option")                           
+
+
+
+'''write a program that asks the user for a password and checks if it means the following criteria: at least 8 charecters long,contains at least one uppercase letter,and
+contains at least one digit.print "valid password" if the password meets the criteria, and "invalid password" if does not'''
+# import re
+# password=input("Enter your password:")
+# def n(password):
+#     if len(password)<8:
+#         return False
+#     if  re.search("[a-z]",password):
+#         return True
+#     if  re.search("[A-Z]",password):
+#         return True
+#     if  re.search("[0-9]",password):
+#         return True
+#     return True
+# if n(password):
+#     print("valid password")
+# else:
+#     print("invalid passsword")
+        
