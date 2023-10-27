@@ -415,18 +415,91 @@ PY
 # print("Descending Order",list) 
 
 
-'''*
-   1
-   * *
-   1 2
-   * * *
-   3 2 1
-   * * * *
-   1 2 3 4
-   * * * * *
-   5 4 3 2 1
-   * * * * * *
-   1 2 3 4 5 6 
-   * * * * * * *
-   7 6 5 4 3 2 1'''
+'''WAP that simulates a game of rock paper scissors.The program should ask the user for their choice.
+*rock beats scissors
+*scissors beats paper
+*paper beats rock'''
+# import random
+# print("select from the list")
+# print("1).Rock")
+# print("2).Paper")
+# print("3).Scissors")
+# user=input("Enter the choice:")
+# r=["rock","paper","scissors"]
+# com=random.choice(r)
+# if(user==com):
+#     print("Its a tie")
+# elif(com==r[0] and user==r[2]):
+#     print("computer wins")
+# elif(com==r[1] and user==r[0]):
+#     print("computer wins")
+# elif(com==r[2] and user==r[1]):
+#     print("computer wins")
+# elif(user==r[0] and com==r[2]):
+#     print("user wins")
+# elif(user==r[1] and com==r[0]):
+#     print("user wins")
+# elif(user==r[2] and com==r[1]):
+#     print("user wins") 
+# else:
+#     print("invalid option")                           
 
+
+
+'''write a program that asks the user for a password and checks if it means the following criteria: at least 8 charecters long,contains at least one uppercase letter,and
+contains at least one digit.print "valid password" if the password meets the criteria, and "invalid password" if does not'''
+# import re
+# password=input("Enter your password:")
+# def n(password):
+#     if len(password)<8:
+#         return False
+#     if  re.search("[a-z]",password):
+#         return True
+#     if  re.search("[A-Z]",password):
+#         return True
+#     if  re.search("[0-9]",password):
+#         return True
+#     return True
+# if n(password):
+#     print("valid password")
+# else:
+#     print("invalid passsword")
+
+
+'''roman numerals convert it to an integer'''
+# n=input("Enter an number:")
+# roman={"I":1,
+#        "V":5,
+#        "X":10,
+#        "L":50,
+#        "C":100,
+#        "D":500,
+#        "M":1000
+#       }
+# int_value=0
+# i=0
+# if i in range(len(n)):
+#     if n[i] in roman:
+#       if i+1<len(n) and roman[n[i]]<roman[n[i+1]]:
+#         int_value-=roman[n[i]]
+#       else:
+#         int_value+=roman[n[i]]    
+#       print("the integer value is:",int_value)
+#     else:
+#        print("invalid input.")
+
+
+'''create a circle class and initialize it with radius.Make two methods getArea and getCircumference inside this class'''
+# class circle:
+#     def __init__(self, radius):
+#         self.radius=radius
+#     def circle_area(self):
+#         return f"{self.radius*radius*3.14}"
+#     def circle_circumferance(self):
+#         return f"{self.radius*3.14*2}"
+# radius=float(input("Enter the radius:"))
+# circle=circle(radius)
+# area=circle.circle_area()
+# circumferance=circle.circle_circumferance()
+# print("Area of the circle:",area)
+# print("circumferance of the circle:",circumferance)  
