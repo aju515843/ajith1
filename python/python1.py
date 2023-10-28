@@ -503,3 +503,23 @@ contains at least one digit.print "valid password" if the password meets the cri
 # circumferance=circle.circle_circumferance()
 # print("Area of the circle:",area)
 # print("circumferance of the circle:",circumferance)  
+
+'''create a temrature class.Make two methods
+1.convertFahrenheit-it will take celsius and will print it into Fahrenheit.
+2.convertCelsius-it will take Fahrenheit and will convert it into Celsius.'''
+# class temrature:
+#   def __init__(self,tem):
+#     self.tem = tem
+#   def convertFahrenheit(self):
+#     return f"{(self.tem*1.8)+32}"
+#   def convertCelsius(self):
+#     return f"{((self.tem-32)*5)/9}"  
+# tem=float(input("Enter the temrature:"))
+# temrature=temrature(tem)
+# Fahrenheit=temrature.convertFahrenheit()
+# celsius=temrature.convertCelsius()
+# print("fahrenheit temrature:",Fahrenheit)
+# print("celsius temrature:",celsius)
+
+
+
