@@ -464,4 +464,103 @@ contains at least one digit.print "valid password" if the password meets the cri
 #     print("valid password")
 # else:
 #     print("invalid passsword")
-        
+
+
+'''roman numerals convert it to an integer'''
+# n=input("Enter an number:")
+# roman={"I":1,
+#        "V":5,
+#        "X":10,
+#        "L":50,
+#        "C":100,
+#        "D":500,
+#        "M":1000
+#       }
+# int_value=0
+# i=0
+# if i in range(len(n)):
+#     if n[i] in roman:
+#       if i+1<len(n) and roman[n[i]]<roman[n[i+1]]:
+#         int_value-=roman[n[i]]
+#       else:
+#         int_value+=roman[n[i]]    
+#       print("the integer value is:",int_value)
+#     else:
+#        print("invalid input.")
+
+
+'''create a circle class and initialize it with radius.Make two methods getArea and getCircumference inside this class'''
+# class circle:
+#     def __init__(self, radius):
+#         self.radius=radius
+#     def circle_area(self):
+#         return f"{self.radius*radius*3.14}"
+#     def circle_circumferance(self):
+#         return f"{self.radius*3.14*2}"
+# radius=float(input("Enter the radius:"))
+# circle=circle(radius)
+# area=circle.circle_area()
+# circumferance=circle.circle_circumferance()
+# print("Area of the circle:",area)
+# print("circumferance of the circle:",circumferance)  
+
+'''create a temrature class.Make two methods
+1.convertFahrenheit-it will take celsius and will print it into Fahrenheit.
+2.convertCelsius-it will take Fahrenheit and will convert it into Celsius.'''
+# class temrature:
+#   def __init__(self,tem):
+#     self.tem = tem
+#   def convertFahrenheit(self):
+#     return f"{(self.tem*1.8)+32}"
+#   def convertCelsius(self):
+#     return f"{((self.tem-32)*5)/9}"  
+# tem=float(input("Enter the temrature:"))
+# temrature=temrature(tem)
+# Fahrenheit=temrature.convertFahrenheit()
+# celsius=temrature.convertCelsius()
+# print("fahrenheit temrature:",Fahrenheit)
+# print("celsius temrature:",celsius)
+
+
+'''bank details'''
+# class bank:
+#     def __init__(self,name,num,bal):
+#         self.name=name
+#         self.num=num
+#         self.bal=bal
+#     def deposit(self):
+#         amt=int(input("Enter the amount:")) 
+#         self.bal+=amt
+#     def withdraw(self):
+#         amt=int(input("Enter the amount"))
+#         self.bal-=amt
+#     def showbal(self):
+#         print(self.name,"\n",self.bal)
+# l=[]
+# def details():
+#     n=input("Enter name:")
+#     m=input("Enter accno:")
+#     p=input("Enter balanace:")
+#     x=bank(n,m,p)
+#     l.append(x)
+# while True:
+#        choice=int(input("1.details \n2.deposit \n3.withdraw \n4.Balanace \n Enter your choice:"))
+#        if choice==1:
+#            details()
+#        elif choice==2:
+#            accno=int(input("Enter accno:"))
+#            for i in l:
+#                if accno==i.num:
+#                    i.deposit()
+#                    i.showbal()
+#                else:
+#                    print("check the number")    
+#        elif choice==3:
+#            i.withdraw()
+#            i.showbal()       
+#        elif choice==4:
+#            i.showbal()         
+#        else:
+#            print("invalid option")
+#            break                            
+    
