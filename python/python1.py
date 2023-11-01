@@ -523,3 +523,74 @@ contains at least one digit.print "valid password" if the password meets the cri
 
 
 
+
+'''bank details'''
+# class bank:
+#     def __init__(self,name,num,bal):
+#         self.name=name
+#         self.num=num
+#         self.bal=bal
+#     def deposit(self):
+#         amt=int(input("Enter the amount:")) 
+#         self.bal+=amt
+#     def withdraw(self):
+#         amt=int(input("Enter the amount"))
+#         self.bal-=amt
+#     def showbal(self):
+#         print(self.name,"\n",self.bal)
+# l=[]
+# def details():
+#     n=input("Enter name:")
+#     m=input("Enter accno:")
+#     p=input("Enter balanace:")
+#     x=bank(n,m,p)
+#     l.append(x)
+# while True:
+#        choice=int(input("1.details \n2.deposit \n3.withdraw \n4.Balanace \n Enter your choice:"))
+#        if choice==1:
+#            details()
+#        elif choice==2:
+#            accno=int(input("Enter accno:"))
+#            for i in l:
+#                if accno==i.num:
+#                    i.deposit()
+#                    i.showbal()
+#                else:
+#                    print("check the number")    
+#        elif choice==3:
+#            i.withdraw()
+#            i.showbalcreate a base class "shape" with a method "area" create derived classes " Rectangle" and "Circle" that inherit from "Shape" and implement the "area" method.()       
+#        elif choice==4:
+#            i.showbal()         
+#        else:
+#            print("invalid option")
+#            break                            
+    
+
+# '''create a base class "shape" with a method "area" create derived classes " Rectangle" and "Circle" that inherit from "Shape" and implement the "area" method.'''
+# class Shape:
+#     def __init__(self,radius):
+#         # self.length=length
+#         # self.width=width
+#         self.radius=radius
+#     def Circle_area(self):
+#         return f"{self.radius*radius*3.14}"
+# radius=int(input("Enter the radius of the circle:"))
+# Shape=Shape(radius)
+# area_circle=Shape.Circle_area()  
+# print("area of the circle is:",area_circle)    
+# class Rectangle_shape:        
+#     def Rectangle_area(self,length,width):
+#         self.length=length
+#         self.width=width
+#         return f"{self.length*width}"
+# length=int(input("Enter the length of the rectangle:"))
+# width=int(input("Enter the width of the rectangle:"))   
+# Rectangle_shape=Rectangle_shape(length,width)
+# area_rectagle=Shape.Rectangle_area()
+# print("area of the rectagle is:",area_rectagle)
+
+
+          
+
+      
