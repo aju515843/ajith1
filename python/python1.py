@@ -591,6 +591,36 @@ contains at least one digit.print "valid password" if the password meets the cri
 # print("area of the rectagle is:",area_rectagle)
 
 
-          
 
-      
+'''python create,read and remove using file handling function files'''
+# def rem():
+#  import os
+#  if os.path.exists("file1.txt"):
+#     os.remove("file1.txt")
+# def read():
+#   f=open("file1.txt","r")
+#   print(f.read())
+# def write():
+#    f=open("file1.txt","a")
+#    f.write("\nAl-Nassr")
+#    f.close()   
+# print("FILE HANDLING")
+# while True:
+#     print("Choose Option")
+#     print("1.Read")
+#     print("2.Write")
+#     print("3.Delete")
+#     print("4.Exit")
+#     Choice=int(input("Enter your choice:"))
+#     if Choice==1:
+#        print("***Reading file***")
+#        read()
+#     elif Choice==2:
+#        print("***Writing file***")
+#        write()
+#     elif Choice==3:
+#         print("***Removing file***")
+#         rem()
+#     elif Choice==4:
+#        print("***Thank You! See you again***")
+#        break
