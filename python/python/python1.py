@@ -522,6 +522,8 @@ contains at least one digit.print "valid password" if the password meets the cri
 # print("celsius temrature:",celsius)
 
 
+
+
 '''bank details'''
 # class bank:
 #     def __init__(self,name,num,bal):
@@ -557,10 +559,109 @@ contains at least one digit.print "valid password" if the password meets the cri
 #                    print("check the number")    
 #        elif choice==3:
 #            i.withdraw()
-#            i.showbal()       
+#            i.showbalcreate a base class "shape" with a method "area" create derived classes " Rectangle" and "Circle" that inherit from "Shape" and implement the "area" method.()       
 #        elif choice==4:
 #            i.showbal()         
 #        else:
 #            print("invalid option")
 #            break                            
     
+
+# '''create a base class "shape" with a method "area" create derived classes " Rectangle" and "Circle" that inherit from "Shape" and implement the "area" method.'''
+# class Shape:
+#     def __init__(self,radius):
+#         # self.length=length
+#         # self.width=width
+#         self.radius=radius
+#     def Circle_area(self):
+#         return f"{self.radius*radius*3.14}"
+# radius=int(input("Enter the radius of the circle:"))
+# Shape=Shape(radius)
+# area_circle=Shape.Circle_area()  
+# print("area of the circle is:",area_circle)    
+# class Rectangle_shape:        
+#     def Rectangle_area(self,length,width):
+#         self.length=length
+#         self.width=width
+#         return f"{self.length*width}"
+# length=int(input("Enter the length of the rectangle:"))
+# width=int(input("Enter the width of the rectangle:"))   
+# Rectangle_shape=Rectangle_shape(length,width)
+# area_rectagle=Shape.Rectangle_area()
+# print("area of the rectagle is:",area_rectagle)
+
+
+
+'''python create,read and remove using file handling function files'''
+# def rem():
+#  import os
+#  if os.path.exists("file1.txt"):
+#     os.remove("file1.txt")
+# def read():
+#   f=open("file1.txt","r")
+#   print(f.read())
+# def write():
+#    f=open("file1.txt","a")
+#    f.write("\nAl-Nassr")
+#    f.close()   
+# print("FILE HANDLING")
+# while True:
+#     print("Choose Option")
+#     print("1.Read")
+#     print("2.Write")
+#     print("3.Delete")
+#     print("4.Exit")
+#     Choice=int(input("Enter your choice:"))
+#     if Choice==1:
+#        print("***Reading file***")
+#        read()
+#     elif Choice==2:
+#        print("***Writing file***")
+#        write()
+#     elif Choice==3:
+#         print("***Removing file***")
+#         rem()
+#     elif Choice==4:
+#        print("***Thank You! See you again***")
+#        break
+
+
+'''calculator'''
+from tkinter import *
+w=Tk()
+w.config(background='black')
+w.geometry('300x300')
+l1=Label(w,text='num1')
+e1=Entry(w,width=20)
+l2=Label(w,text='num2')
+e2=Entry(w,width=20)
+l1.grid(row=0,column=0)
+l2.grid(row=1,column=0)
+e1.grid(row=0,column=1,padx=10)
+e2.grid(row=1,column=1,padx=10)
+def add():
+    r=(int(e1.get())+int(e2.get()))
+    e3.delete(0,END)
+    e3.insert(END,r)
+def sub():
+    r=(int(e1.get())-int(e2.get()))
+    e3.delete(0,END)
+    e3.insert(END,r)
+def mul():
+    r=(int(e1.get())*int(e2.get()))
+    e3.delete(0,END)
+    e3.insert(END,r)
+def div():
+    r=(int(e1.get())/int(e2.get()))
+    e3.delete(0,END)
+    e3.insert(END,r) 
+# def clear():
+#     if   
+b1=Button(w,text='ADD',command=add).grid(row=3,column=0)
+b2=Button(w,text='SUB',command=sub).grid(row=3,column=1)
+b3=Button(w,text='MUL',command=mul).grid(row=3,column=2)
+b4=Button(w,text='DIV',command=div).grid(row=3,column=3)
+# b5=Button(w,text='CLEAR',command=clear).grid(row=4,column=0)
+e3=Entry(w,width=20)
+e3.grid(row=5,column=2)
+w.mainloop()
